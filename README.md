@@ -14,65 +14,6 @@ You will notice 13 scripts attached to these Box Triggers. Each one of these scr
 
 You will also find scripts for the characters Abdoul, Amina, Soldier 1, and Soldier 2, as well as another script to control the movement of the doors. An API of the characters and an outline of each Box Trigger is provided below.
 
-## API
-Please open this in a text editor, as it has indentations that Github doesn't show on the browser.
-
-### AminaScript
-Amina is the teacher of the class. She plays a role throughout the entire experience.
-
-`AskIssoufWhereAreYou`			Plays the "Where are you?" audio.
-`WalktoCloset`					Activates Amina's initial movement into the closet looking for Mariam.
-`StopWalktoCloset`				Deactivates Amina's movement into the closet and plays the "Come along now" audio.
-`WalkToFrontCenter`				Activates Amina's movement to the front center of the classroom.
-`StopWalkToFrontCenter`			Deactives Amina's movement to the front center of the classroom and has her stand still.
-`TakeAttendance`				Plays the taking attendance audio.
-`MmphAbdoul`					Plays the angry gesture animation.
-`MmphAbdoulAndIssouf`			Plays the angry gesture animation and plays the "Mariam. Abdoul." audio.
-`OrderIssoufToGetChalk`			Plays the angry gesture animation and plays the "go get chalk" audio.
-`TellChildrenToHide`			Plays the "Children, hide" audio.
-`TellChildrenTheSoldiersAreBack`Plays the "The soldiers are back" audio.
-`FaceSoldiersAndSlideBack`		Plays the terrified animation and walks backwards as she is approached.
-`StopSlideBack'					Deactivates the backward movement.
-`NoChalk`						Repeatedly tells Mariam to get the chalk.
-
-### AbdoulScript
-Abdoul is the friend of Mariam who tells her the story in the second phase of the School scene.
-
-`TellStory`						Plays the talking animation and the Yasmine story audio.
-`Idle`							Plays the idle animation.
-`FinishStory`					Plays the remaining bit of the Yasmine story audio.
-`Apologize`						Plays the talking animation and plays the apology audio.
-`AskWhatsGoingOn`				Plays the "What's going on?" audio.
-
-### Soldier1Script
-Soldier 1 is the first soldier to walk into the scene. He points his weapon at Amina, the teacher.
-
-`EnterSchool`					Activates Soldier 1's movement into the school and plays the walking animation.
-`StopEnterSchool`				Deactivates Soldier 1's movement in the school and plays the "Come with us" audio.
-`SayBurnThePlace`				Plays the "Burn it" audio.
-
-### Soldier2Script
-Soldier 2 is the second soldier to walk into the scene. He walks down the hall and points his weapon at Abdoul, the friend of Mariam.
-
-`EnterSchool`					Activates Soldier 2's movement into the school and plays the walking animation.
-`StopEnterSchool`				Deactivates Soldier 2's movement into the school.
-`TurnAndWalkTowardCloset`		Activates Soldier 2's movement down the aisle.
-`StopTurnAndWalkTowardCloset`	Deactivates Soldier 2's movement down the aisle.
-`TellIssoufToMoveIt`			Plays the "Move it" audio.
-
-### NPCScript
-This is a general script for the students and is also applied to Abdoul. It provides the methods for them to exit the building.
-
-`WalkToAisle`					Activates character movement towards the aisle and plays the walking animation.
-`WalkToDoor`					Activates character movement towards the door.
-`ExitSchool`					Activates character movement out of the main door of the school.
-
-### DoorScript
-This provides the methods to open/close doors.
-
-`Close`							Closes the door it's attached to.
-`Open`							Opens the door it's attached to.
-
 ## Box Trigger Outline
 
 ### Trigger 1
