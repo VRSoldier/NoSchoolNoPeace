@@ -1,10 +1,12 @@
 # No School, No Peace
-Our remote repository location: https://github.com/kenny-kelley/accad-7504.
 
-## To get started...
+![](screenshot.png)
+[Click here](https://youtu.be/vFU3gN4FAFw) for a video walkthrough.
+
+## To run the project locally...
 1. Download Unity Editor Version 2019.1.9f from https://unity3d.com/get-unity/download/archive.
 2. Clone our repository using:
-`$ git clone https://github.com/kenny-kelley/accad-7504`
+`$ git clone https://github.com/alec-bell/NoSchoolNoPeace`
 3. Open the Unity project within the Unity Editor.
 
 ## General Code Overview
